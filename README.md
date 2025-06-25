@@ -1,7 +1,8 @@
 
 ## Description
-User Authentication System
+User Authentication System.
 
+This API provides the following Endpoints check the documentation [here](https://mentorleduserauth.onrender.com) 
 ## added features
 Added Features:
 1. Register(create new user):
@@ -56,7 +57,7 @@ $ npm run test:cov
 ```
 
 ## Deployment
-This API provides the following Endpoints check the documentation:[here](https://github.com/yourusername/your-repo-name) 
+The endpoints available for interacting with the API can be found in the Documentation:[here](https://mentorleduserauth.onrender.com) 
 
 
 ## :handshake: Contributing

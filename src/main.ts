@@ -28,7 +28,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Mentorled API')
     .setDescription(
-      'This API is used for User Authentication System.\n\n📘 [GitHub Repository](https://github.com/yourusername/your-repo-name)\n\n🔗 [Swagger UI](https://yourdomain.com/api-docs)',
+      'This API is used for User Authentication System.\n\n📘 [GitHub Repository](https://github.com/salimkarbm/mentorleduserauth)\n\n🔗 [Swagger UI](https://mentorleduserauth.onrender.com)',
     )
     .setVersion('1.0')
     .addBearerAuth()
