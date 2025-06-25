@@ -95,7 +95,7 @@ export class AuthService {
     )?.toJSON();
     if (!userRecord) {
       throw new HttpException(
-        ERROR_MESSAGES.USER_NOT_FOUND,
+        ERROR_MESSAGES.INVALID_EMAIL,
         HttpStatus.BAD_REQUEST,
       );
     }
@@ -105,7 +105,7 @@ export class AuthService {
     );
     if (!isPasswordValid) {
       throw new HttpException(
-        ERROR_MESSAGES.INVALID_CREDENTIALS,
+        ERROR_MESSAGES.INVALID_PASSWORD,
         HttpStatus.BAD_REQUEST,
       );
     }
