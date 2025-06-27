@@ -6,4 +6,5 @@ export const ERROR_MESSAGES = {
   INVALID_CREDENTIALS: 'Invalid credentials',
   INVALID_PASSWORD: 'Invalid password',
   INVALID_EMAIL: 'Invalid email or password',
+  POST_NOT_FOUND: 'Post not found',
 };

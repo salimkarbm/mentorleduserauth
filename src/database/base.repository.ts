@@ -23,7 +23,7 @@ export type FindType<T> = {
   conditions?: string[];
 };
 
-interface PaginationResult<T> {
+export interface PaginationResult<T> {
   result: FlattenMaps<T>[] | T[] | Record<string, any>[] | Array<Partial<T>>;
 
   pagination: {

@@ -14,6 +14,7 @@ import configuration from './config';
 import { AuthenticationMiddleware } from './auth/middlewares/authentication.middleware';
 import { DatabaseModule } from './database/database.module';
 import { JwtService } from '@nestjs/jwt';
+import { PostsModule } from './posts/posts.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { JwtService } from '@nestjs/jwt';
     DatabaseModule,
     UsersModule,
     AuthModule,
+    PostsModule,
   ],
   controllers: [AppController],
   providers: [AppService, JwtService],
