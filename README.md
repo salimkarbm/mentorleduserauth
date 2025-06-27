@@ -8,6 +8,12 @@ Added Features:
 1. Register(create new user):
 2. login:
 3. view user profile:
+4. Get list all authors
+5. Create blog post
+6. Get blog post
+7. Get blog posts
+8. update blog post
+9. Delete blog post
 
 ## Project setup
 The following steps outline will set you up on how to install the app on your local machine.
