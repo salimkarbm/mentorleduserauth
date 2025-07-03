@@ -70,6 +70,7 @@ export class AuthService {
         accessToken,
       };
     } catch (error) {
+      console.log(error);
       throw new HttpException(
         error.code === 11000 ? ERROR_MESSAGES.USER_EXISTS : error.message,
         HttpStatus.BAD_REQUEST,
