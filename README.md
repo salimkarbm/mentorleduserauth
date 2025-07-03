@@ -16,7 +16,7 @@ The following steps outline will set you up on how to install the app on your lo
 1. 
 ```bash
 # Clone this repository 
-git clone https://github.com/salimkarbm/caching-proxy.git
+git clone https://github.com/salimkarbm/mentorleduserauth.git
 ```
 2. 
 ```bash
